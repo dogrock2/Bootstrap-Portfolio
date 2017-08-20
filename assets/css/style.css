@@ -1,0 +1,107 @@
+#name{
+   
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;    
+    color: #EDF3F2;
+    text-align: center;     
+    font-size: 1.3em;
+}
+nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);          
+}
+article {   
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    color: #777777;
+    margin-bottom: 40px;
+    
+}
+h1{
+    font-size: 25px;
+    color: #4aaaa5;    
+    border-bottom: 1px solid #dddddd;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+h2{    
+    color: #4aaaa5;
+    font-size: 20px;     
+    border-bottom: 1px solid #dddddd;
+    font-family: 'Georgia', Times, Times New Roman, serif;  
+}
+p {
+    line-height: 25px;    
+}
+#smediaImg{
+    height: 40px;
+    width: 40px;
+}
+aside{
+    border: 1px solid #dddddd;
+    background-color: #ffffff;        
+}
+footer {    
+    text-align: center;
+    background-color: #666666;    
+    color: #dddddd;
+    border-top: 10px solid #4aaaa5;        
+}
+#mainBGcontainer {   
+    background-image: url("../../assets/images/bg.png");
+    background-repeat: repeat;
+}
+#contMid {
+    margin-left: 2%;
+    margin-bottom: 5%;
+    margin-right: 0;
+}
+
+
+@media(max-width:1200px){
+    #smediaImg{
+        height: 30px;
+        width: 30px;       
+    }    
+    h2{            
+        font-size: 19px;
+    }    
+}
+@media(max-width:992px){
+    ul{
+        font-size: .9em;
+    }  
+    #smediaImg{
+        height: 40px;
+        width: 40px;        
+    }    
+    aside{
+        margin-left: 20%;
+        margin-bottom: 10%; 
+        min-width: 300px !important;      
+        text-align: center;
+    }    
+    article{
+        margin-bottom: 0; 
+    }
+    #contMid{
+        margin-right: 7%;
+        margin-bottom: 0;          
+    }
+}
+@media(max-width:768px){
+    aside{
+        margin-left: 4%;
+        margin-bottom: 10%; 
+        min-width: 440px !important;      
+        text-align: center;
+    }  
+    #contMid{
+        margin-right: 5%;          
+    }
+   
+}
+@media(max-width:576px){
+    
+}
