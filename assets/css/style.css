@@ -1,107 +1,196 @@
-#name{
-   
-    background-color: #4aaaa5;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    font-weight: bold;    
-    color: #EDF3F2;
-    text-align: center;     
+#name {
     font-size: 1.3em;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
+
+#hmDiv,
+#rpgDiv,
+#triviaDiv,
+#rutDiv,
+#rockDiv,
+#soonDiv {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 230px 175px;
+    min-height: 175px;
+    min-width: 230px;
+    margin-left: 5%;
+}
+
+#hmDiv {
+    background-image: url("../../assets/images/hangman.jpg");
+}
+
+#rpgDiv {
+    background-image: url("../../assets/images/rpg.jpg");
+}
+
+#triviaDiv {
+    background-image: url("../../assets/images/trivia.jpg");
+}
+
+#rutDiv {
+    background-image: url("../../assets/images/phones.png");
+}
+
+#rockDiv {
+    background-image: url("../../assets/images/rpc.jpg");
+}
+
+#soonDiv {
+    background-image: url("../../assets/images/coming_soon.jpg");
+    border-bottom: 1px solid #DCDCDC;
+}
+
+.sectionDivs {
+    font-size: 18px;
+    position: absolute;
+    top: 90%;
+    transform: translateY(-90%);
+    overflow: hidden;
+}
+
 nav {
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);          
+    transform: translateY(-50%);
 }
-article {   
-    background-color: #ffffff;
-    border: 1px solid #dddddd;
-    color: #777777;
+
+article {
     margin-bottom: 40px;
-    
 }
-h1{
+
+h1 {
     font-size: 25px;
-    color: #4aaaa5;    
     border-bottom: 1px solid #dddddd;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
-h2{    
-    color: #4aaaa5;
-    font-size: 20px;     
+
+h2 {
+    font-size: 20px;
     border-bottom: 1px solid #dddddd;
-    font-family: 'Georgia', Times, Times New Roman, serif;  
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
+
 p {
-    line-height: 25px;    
+    line-height: 25px;
 }
-#smediaImg{
+
+#smediaImg {
     height: 40px;
     width: 40px;
 }
-aside{
-    border: 1px solid #dddddd;
-    background-color: #ffffff;        
+
+footer {
+    border-top: 10px solid #5bc0de;
 }
-footer {    
-    text-align: center;
-    background-color: #666666;    
-    color: #dddddd;
-    border-top: 10px solid #4aaaa5;        
-}
-#mainBGcontainer {   
+
+#mainBGcontainer {
     background-image: url("../../assets/images/bg.png");
     background-repeat: repeat;
 }
+
 #contMid {
     margin-left: 2%;
     margin-bottom: 5%;
     margin-right: 0;
 }
 
-
-@media(max-width:1200px){
-    #smediaImg{
-        height: 30px;
-        width: 30px;       
-    }    
-    h2{            
+@media(max-width:1200px) {
+    #smediaImg {
+        /*height: 30px;
+        width: 30px;*/
+    }
+    h2 {
         font-size: 19px;
-    }    
+    }
+    #hmDiv,
+    #rpgDiv,
+    #triviaDiv,
+    #rutDiv,
+    #rockDiv,
+    #soonDiv {
+        margin-top: 20px;
+    }
+    #portSection {
+        width: 350px;
+        margin-left: 0;
+    }
+    aside {
+        width: 200px;
+        position: absolute;
+        right: 25px;
+    }
+    #contMid {
+        margin-right: 30px;
+    }
+    #cntArt {
+        margin-right: 10px;
+    }
 }
-@media(max-width:992px){
-    ul{
+
+@media(max-width:992px) {
+    ul {
         font-size: .9em;
-    }  
-    #smediaImg{
+    }
+    #smediaImg {
         height: 40px;
-        width: 40px;        
-    }    
-    aside{
-        margin-left: 20%;
-        margin-bottom: 10%; 
-        min-width: 300px !important;      
-        text-align: center;
-    }    
-    article{
-        margin-bottom: 0; 
+        width: 40px;
     }
-    #contMid{
+    aside {
+        position: relative;
+        margin-left: 40%;
+        margin-bottom: 10%;
+        min-width: 350px !important;
+        text-align: center;
+    }
+    #contMid {
         margin-right: 7%;
-        margin-bottom: 0;          
+        margin-bottom: 0;
+    }
+    #cntArt {
+        width: 350px;
+    }
+    #contMid {
+        width: 100%;
     }
 }
-@media(max-width:768px){
-    aside{
-        margin-left: 4%;
-        margin-bottom: 10%; 
-        min-width: 440px !important;      
+
+@media(max-width:768px) {
+    aside {
+        margin-left: 8%;
+        margin-bottom: 10%;
+        min-width: 440px !important;
         text-align: center;
-    }  
-    #contMid{
-        margin-right: 5%;          
+        width: 93%;
     }
-   
-}
-@media(max-width:576px){
-    
+    #contMid {
+        margin-right: 5%;
+    }
+    nav {
+        position: static;
+        overflow: auto;
+        padding-top: 30px;
+        padding-left: 20%;
+    }
+    #colSix {
+        height: 30px;
+    }
+    .sectionDivs {
+        width: 230px;
+        left: 25%;
+    }
+    #heading {
+        text-align: center;
+    }
+    #mainBGconatiner,
+    #portSection {
+        min-width: 470px;
+    }
+    #cntArt {
+        width: 100%;
+    }
+    #cntHeading {
+        text-align: center;
+    }
 }

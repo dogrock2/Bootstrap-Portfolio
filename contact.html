@@ -2,23 +2,92 @@
 <html lang="en-us">
 
 <head>
-
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>Bootstrap Template</title>  
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-
+  <title>Contact</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
+  <div class="container">
+    <div class="row">
+      <!-- starts header -->
+      <div class="col-md-1"></div>
+      <div class="col-md-4">
+        <div id="name" class="py-4 mt-2 mx-4 bg-info text-light text-center font-weight-bold">Alexander Nieves</div>
+      </div>
+      <div class="col-md-6" id="colSix">
+        <nav class="ml-5">
+          <ul class="nav mx-1">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <!-- ends header -->
 
-  
+    <div class="row" id="cont2">
+      <div class="col-md-1"></div>
+      <div class="col-md-9">
+        <div id="mainBGcontainer">
+          <div class="row">
+            <div class="col-md-8 mt-4" id="contMid">
+              <section class="ml-2 my-4 pl-4 p-4 bg-white border" id="cntArt">
+                <h1 class="h1class pb-2 text-info" id="cntHeading">Contact</h1>
+                <form>
+                  <div class="form-group pt-2">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your name">
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="exampleInputPassword1" placeholder="example@gmail.com">
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+              </section>
+            </div>
+            <div class="col-md-3">
+              <!-- aside -->
+              <aside class="mt-5 float-left p-2 border bg-white">
+                <h2 class="my-3 pb-3 text-info">Connect with Me</h2>
+                <ul class="nav justify-content-center">
+                  <li class="nav-item"><a href="https://github.com/dogrock2" target="_blank"><img src="assets/images/ghub.png" alt="image not found" id="smediaImg" class="m-1"></a></li>
+                  <li class="nav-item"><a href="https://www.linkedin.com/in/alexander-nieves-a04b76b1" target="_blank"><img src="assets/images/lin.png" alt="image not found" id="smediaImg" class="m-1"></a></li>
+                  <li class="nav-item"><a href="https://stackoverflow.com" target="_blank"><img src="assets/images/so.png" alt="image not found" id="smediaImg" class="m-1"></a></li>
+                </ul>
+              </aside>
+            </div>
+            <div class="col-md-1"></div>
+          </div>
+          <!-- ends row -->
 
+        </div>
+      </div>
+      <div class="col-md-2"></div>
+    </div>
 
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>  
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- FOOTER -->
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-9">
+        <footer class="p-4 bg-secondary text-white text-center">&copyCopyright 2017 Alexander Nieves</footer>
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
 </body>
 
 </html>
