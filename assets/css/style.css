@@ -14,8 +14,10 @@
     background-image: url("../../assets/images/rpc.jpg");
 }
 #soonDiv {
-    background-image: url("../../assets/images/coming_soon.jpg");
+    background-image: url("../../assets/images/LOGO3.png");
     border-bottom: 1px solid #DCDCDC;
+    background-repeat: no-repeat;
+    background-size: 200px 150px;	
 }
 .imgChng{    
 	background-size: 200px 200px;
