@@ -8,10 +8,21 @@
     background-image: url("../../assets/images/trivia.jpg");
 }
 #rutDiv {
-    background-image: url("../../assets/images/phones.png");
+    background-image: url("../../assets/images/NYtimes.png");
 }
 #rockDiv {
     background-image: url("../../assets/images/rpc.jpg");
+}
+.contactText{
+    font-size: 20px;
+}
+#contactIconPhone{
+    height: 20px;
+    width: 19px;
+}
+#contactIconEmail{
+    height: 25px;
+    width: 25px;
 }
 #soonDiv {
     background-image: url("../../assets/images/LOGO3.png");
@@ -24,6 +35,9 @@
 	height: 200px;
     width: 200px;	
     max-width: 100%;	   		
+}
+#msgArea {
+    resize: none;
 }
 .cntrVert{
     position: absolute;
