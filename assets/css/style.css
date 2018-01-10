@@ -24,8 +24,20 @@
     height: 25px;
     width: 25px;
 }
-#soonDiv {
+#medDiv {
     background-image: url("../../assets/images/LOGO3.png");
+    border-bottom: 1px solid #DCDCDC;
+    background-repeat: no-repeat;
+    background-size: 200px 150px;	
+}
+#soonDiv {
+    background-image: url("../../assets/images/coming_soon.jpg");
+    border-bottom: 1px solid #DCDCDC;
+    background-repeat: no-repeat;
+    background-size: 200px 150px;	
+}
+#RickMortyDiv {
+    background-image: url("../../assets/images/Rick_and_Morty.png");
     border-bottom: 1px solid #DCDCDC;
     background-repeat: no-repeat;
     background-size: 200px 150px;	
